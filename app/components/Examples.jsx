@@ -11,7 +11,8 @@ var React=require('react')
 var Examples=(props)=>{
     return(
         <div>
-            <h1>Examplex</h1>
+            <h1>Example</h1>
+            <p>Wellcome to Example page</p>
         </div>
     )
 }
