@@ -10,6 +10,9 @@ var Nav=require('Nav')
 var Weather=require('Weather')
 var About=require('About')
 var Examples=require('Examples')
+// load Foundation
+require('style!css!foundation-sites/dist/css/foundation.min.css')
+$(document).foundation();
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={Main}>
