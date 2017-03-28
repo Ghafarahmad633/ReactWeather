@@ -15,7 +15,7 @@ var WeatherMessege=(props)=>{
     return(
         <div>
             <div>
-                <h2>Its {temp} in {location}</h2>
+                <h2 className="text-center">Its {temp} in {location}</h2>
             </div>
         </div>
     )
