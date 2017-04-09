@@ -4,6 +4,7 @@ var WeatherMessege=require('WeatherMessege')
 var openWeatherMap=require('openWeatherMap')
 var {Link} =require('react-router')
 var ErrorModal=require('ErrorModal');
+import img from "../Honorable mention- by Robert Raia.jpg"
 var Weather=React.createClass({
     getInitialState:function () {
         return{
@@ -87,6 +88,7 @@ var Weather=React.createClass({
         return(
 
             <div>
+                <img src={img}/>
                 <h1 className="text-center page-title">Get Weather  </h1>
                 <WeatherForm onSearch={this.handleSearch}/>
                 {render_Messeage()}
